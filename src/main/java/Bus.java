@@ -11,11 +11,13 @@ public class Bus {
         this.passengers = new ArrayList<>();
     }
 
-
-
-
-
     public int passengerCount() {
         return this.passengers.size();
     }
+
+    public void addNewPassenger(Person person) {
+        this.passengers.add(person);
+    }
+
+
 }
